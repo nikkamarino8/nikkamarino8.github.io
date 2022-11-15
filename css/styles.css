@@ -1,8 +1,7 @@
 {
-  margin:0;
-  padding:0;
+
+
   box-sizing: border-box;
-  font-family: "Segoe UI Semilight";
 }
 ::-webkit-scrollbar{
   display:none;
@@ -67,14 +66,14 @@ span {
   margin-top:15%;
   /*min-height: calc(100vh - 80px - 76px);*/
   position:relative;
-  padding-bottom: 80.4px;
+  padding-bottom: 80px;
 }
 .details h1{
   font-size: 50px;
   color:#fff;
   margin-bottom:20px;
 }
-.details p, p1{
+.details p{
   color:#fff;
   background:none;
   line-height:22px;
@@ -86,7 +85,7 @@ span {
   font-weight: bold;
   color:#fff;
   display:inline-block;
-  margin:0px 0;
+  margin:0 0;
   border-radius:20px;
 }
 .cc101 {
@@ -95,7 +94,7 @@ span {
   position:relative;
   padding-bottom: 80.4px;
 }
-.cc101 h{
+.cc101 h1{
   font-size: 50px;
   color:#fff;
   margin-bottom:20px;
@@ -125,7 +124,7 @@ span {
   position:relative;
   padding-bottom: 80.4px;
 }
-.about h{
+.about h1{
   color: #ffffff;
   font-size: 50px;
   margin-bottom: 20px;
@@ -155,8 +154,8 @@ span {
   position:relative;
   padding-bottom: 80.4px;
 }
-.sched h{
-  margin-left:0%;
+.sched h1{
+  margin-left:0;
   margin-top:5%;
   font-size:50px;
   color: #fff;
@@ -165,7 +164,7 @@ span {
 .sched p{
   color:#fff;
   font-size:20px;
-  margin-left:0%;
+  margin-left:0;
   margin-top:3%;
   background: none;
   line-height: 22px;
@@ -175,7 +174,7 @@ span {
   margin-top: 15%;
 }
 
-.greetings h{
+.greetings h1{
   font-size:50px;
   color: #fff;
   margin-bottom: 20px;
@@ -194,7 +193,7 @@ span {
   font-weight: bold;
   color: #ffffff;
   display: inline-block;
-  margin: 30px 0px;
+  margin: 30px 0;
   border-radius: 20px;
 }
 .src{
@@ -228,8 +227,8 @@ span {
 .infos p{
   color:#fff;
   font-size:18px;
-  margin-left:0%;
-  margin-top:0%;
+  margin-left:0;
+  margin-top:0;
   background: none;
   line-height: 22px;
 }
