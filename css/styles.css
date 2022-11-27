@@ -130,6 +130,7 @@ span {
   margin-bottom: 20px;
 }
 .about p{
+  margin-top: -3px;
   color:white;
   background:none;
   line-height:23px;
@@ -193,16 +194,17 @@ span {
   font-weight: bold;
   color: #ffffff;
   display: inline-block;
-  margin: 30px 0;
+  margin: 0 0;
   border-radius: 20px;
 }
+
 .src{
   margin-left: 13%;
   margin-top: 15px;
   position:relative;
   padding-bottom: 80.4px;
-
 }
+
 .src p{
   color:white;
   border-style: solid;
@@ -213,6 +215,7 @@ span {
   padding: 5px;
   display: inline-block;
 }
+
 .infos {
   margin-left: 13%;
   margin-top: 15%;
@@ -239,7 +242,7 @@ span {
 .infos table{
   border:none;
   margin-left: 55%;
-  margin-top: -14.5%;
+  margin-top: -19%;
 }
 .nobg{
   margin-top: -39%;
@@ -267,7 +270,7 @@ footer{
   width:100%;
 }
 .bubble{
-  margin-top: -32%;
+  margin-top: -30%;
   margin-left:60%;
   width:35%;
   height:83vh;
