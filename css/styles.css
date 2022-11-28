@@ -284,3 +284,30 @@ footer{
   width: 500px;
   border-radius: 25%;
 }
+.myss{
+  margin-top: -31.5%;
+  margin-left:57%;
+  width:38%;
+  height:76vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  z-index: 19;
+
+}
+.myss img {
+  width: 600px;
+  height: 400px;
+}
+
+.boxforcode{
+  background-color: black;
+  color:white;
+  height: 400px;
+  width: 600px;
+  border: 1px solid #cccccc;
+overflow: scroll;
+  margin-top: 11%;
+  margin-left:10%;;
+  z-index: 19;
+}
