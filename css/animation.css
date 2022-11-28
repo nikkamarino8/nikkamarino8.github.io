@@ -19,7 +19,19 @@
 .images{
   animation: transitionIn 0.75s;
 }
-.sched table{
+.sched table {
+  animation: transitionIn 0.75s;
+}
+.deets{
+  animation: transitionIn 0.75s;
+}
+  .srcofjava{
+    animation: transitionIn 0.75s;
+  }
+.boxforcode{
+  animation: transitionIn 0.75s;
+}
+.output{
   animation: transitionIn 0.75s;
 }
 @keyframes transitionIn {

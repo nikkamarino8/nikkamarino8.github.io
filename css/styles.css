@@ -110,14 +110,7 @@ span {
   background:none;
   line-height: 22px;
 }
-.cc101 h2{
-  text-align: start;
-  justify-content: center;
-  color:white;
-  margin-left:45%;
-  margin-top:1%;
-  background:none;
-}
+
 .about{
   margin-left:13%;
   margin-top:15%;
@@ -301,13 +294,107 @@ footer{
 }
 
 .boxforcode{
-  background-color: black;
+  background-color: #363062;
   color:white;
   height: 400px;
   width: 600px;
-  border: 1px solid #cccccc;
-overflow: scroll;
-  margin-top: 11%;
-  margin-left:10%;;
+  border: none;
+  overflow: scroll;
+  margin-top: -12.5%;
+  margin-left:50%;
   z-index: 19;
+}
+.boxforcode p{
+  margin-left:2%;
+}
+
+.deets{
+  margin-left:13%;
+  margin-top:15%;
+  position:relative;
+  padding-bottom: 80.4px;
+}
+.deets h1{
+  color: #ffffff;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.deets p {
+  margin-top: -3px;
+  color: white;
+  background: none;
+  line-height: 23px;
+}
+.deets a{
+  background:#142850;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 20px;
+}
+.srcofjava {
+  margin-left: 13%;
+  margin-top: 15%;
+  position: relative;
+  padding-bottom: 80.4px;
+}
+.srcofjava h1{
+  color: #ffffff;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.srcofjava p {
+  margin-top: -3px;
+  color: white;
+  background: none;
+  line-height: 23px;
+}
+.output {
+  margin-left: 13%;
+  margin-top: 15%;
+  position: relative;
+  padding-bottom: 80.4px;
+}
+.output h1{
+  color: #ffffff;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.output p {
+  margin-top: -3px;
+  color: white;
+  background: none;
+  line-height: 23px;
+}
+.output img{
+  margin-top: -15%;
+  margin-left:45%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  z-index: 19;
+  width: 700px;
+  height: 500px;
+}
+.pseudo{
+  background-color: #363062;
+  color:white;
+  height: 300px;
+  width: 500px;
+  border: none;
+  overflow: scroll;
+  margin-top: -7%;
+  margin-left:52%;
+  z-index: 19;
+}
+.pseudo p{
+  text-align: start;
+  justify-content: center;
+  color:white;
+  margin-left:2%;
+  margin-top:1%;
+  background:none;
 }

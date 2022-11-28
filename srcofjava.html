@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <title>home</title>
+  <link rel="stylesheet" href="css/animation.css">
+  <meta charset="UTF-8">
+  <title>Source Code</title>
+</head>
+<header>
+  <a href="home.html" class="logo">mntzk</a>
+  <ul>
+    <li><a href="home.html" class="active">HOME</a></li>
+    <li><a href="cc101.html">CC101</a></li>
+    <li><a href="cc102.html">CC102</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="letsbefriends.html">LET'S BE FRIENDS</a></li>
+  </ul>
+</header>
+<body>
+<div class="srcofjava">
+  <h1>SRC</h1>
+  <p>This is the full SRC of the quiz bee final project for CC102 (；′⌒`)</p>
+</div>
+<div class="boxforcode">
+  <p>import java.util.Scanner;
+  public class Main {
+  <br>public static void main(String[] args) {
+  <br>class Questions {
+ <br> String quest;
+ <br> String answer;
+  <br>
+  <br>public Questions(String quest, String answer){
+  <br> this.quest = quest;
+  <br>this.answer = answer;
+
+  }
+<br>
+  }
+  <br> String num1 = "Who is the first ever programmer? HINT: It's a girl";
+  <br> String num2 = "What is the brain of a computer? HINT: only three letters";
+  <br>String num3 = "G-mail and YouTube belong to this company";
+  <br>String num4 = "A computer that is portable and suitable for use while travelling HINT: portability";
+  <br>String num5 = "The operating system of Apple Phones HINT: Three letters";
+  <br> String num6 = "Computers use this number system to store data and perform calculations HINT: It's composed of two numbers";
+  <br> String num7 = "First page of the website HINT: It ends with .html";
+  <br>String num8 = "Which leading computer software business created programs like Spread Sheet, Word and Power point?";
+  <br> String num9 = "What does \"www\" stand for?";
+  <br>String num10 = "Who created Apple and died October 5th 2011?";
+  <br> String num11 = "What operating system is owned by microsoft?";
+  <br>String num12 = "What does USB stand for?";
+  <br> String num13 = "Which part of the computer system are the ones that you can physically touch?";
+  <br>String num14 = "What company invented the MAC operating system?";
+  <br> String num15 = "Who is known as the father of computers?";
+  <br> String num16 = "Which popular company designed the first CPU?";
+  <br> String num17 = "What is the computer's main circuit board called?";
+  <br> String num18 = "Which input device is used to enter letters, numbers, and other characters into a computer?";
+  <br> String num19 = "'Laser', 'Dot Matrix' and 'Inkjet' are types of which output computer device?";
+  <br> String num20 = "Which computer company invented the first floppy disks, hard disk drives, and DRAMS?";
+
+  <br>Questions [] questions = {
+  <br> new Questions(num1,"ada lovelace"),
+  <br>new Questions(num2,"cpu"),
+  <br>new Questions(num3,"google"),
+  <br>new Questions(num4,"laptop"),
+  <br>new Questions(num5,"ios"),
+  <br>new Questions(num6,"binary number system"),
+  <br> new Questions(num7,"index.html"),
+  <br> new Questions(num8,"microsoft"),
+  <br> new Questions(num9,"world wide web"),
+  <br>new Questions(num10,"steve jobs"),
+  <br>new Questions(num11,"windows"),
+  <br> new Questions(num12,"universal serial bus"),
+  <br> new Questions(num13,"hardware"),
+  <br> new Questions(num14,"apple"),
+  <br>new Questions(num15,"charles babbage"),
+  <br>new Questions(num16,"intel corporations"),
+  <br>new Questions(num17,"motherboard"),
+  <br>new Questions(num18,"keyboard"),
+  <br>new Questions(num19,"printer"),
+  <br>new Questions(num20,"ibm"),
+
+
+
+  };
+  <br> theTest(questions);
+  }
+  <br> public static void theTest(Questions [] questions){
+  <br>Scanner scan = new Scanner (System.in);
+  <br>System.out.println("----------------------------");
+  <br>int score = 0;
+  <br>for(int i = 0; i < questions.length; i++){
+  <br>System.out.println(questions[i].quest);
+  <br>String answer = scan.nextLine().toLowerCase();
+  <br>if(answer.equals(questions[i].answer)){
+  <br>score++;
+  }
+  <br>System.out.println("----------------------------");
+  }
+  <br>System.out.println("Your score is " + score+"/" +questions.length);
+  }
+    <br> }</p>
+</div>
+</body>
+<footer>
+  <p>Copyright &copy; 2022, Nikka Aira</p>
+</footer>
+</html>
