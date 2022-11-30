@@ -26,69 +26,83 @@
   <p>This is the full SRC of the quiz bee final project for CC102 (；′⌒`)</p>
 </div>
 <div class="boxforcode">
-  <p>import java.util.Scanner;
-  public class Main {
-  <br>public static void main(String[] args) {
+ <p> <br> import java.util.Scanner;
+  <br> public class Main {
+  <br>  public static void main(String[] args) {
   <br>class Questions {
- <br> String quest;
- <br> String answer;
+  <br> String quest;
+  <br> String answer;
   <br>
   <br>public Questions(String quest, String answer){
   <br> this.quest = quest;
   <br>this.answer = answer;
 
+  }<br>class Questions {
+  <br> String quest;
+  <br> String answer;
+  <br>
+  <br>public Questions(String quest, String answer){
+  <br> this.quest = quest;
+  <br>this.answer = answer;
+  <br>
   }
-<br>
-  }
-  <br> String num1 = "Who is the first ever programmer? HINT: It's a girl";
-  <br> String num2 = "What is the brain of a computer? HINT: only three letters";
-  <br>String num3 = "G-mail and YouTube belong to this company";
-  <br>String num4 = "A computer that is portable and suitable for use while travelling HINT: portability";
-  <br>String num5 = "The operating system of Apple Phones HINT: Three letters";
-  <br> String num6 = "Computers use this number system to store data and perform calculations HINT: It's composed of two numbers";
-  <br> String num7 = "First page of the website HINT: It ends with .html";
-  <br>String num8 = "Which leading computer software business created programs like Spread Sheet, Word and Power point?";
-  <br> String num9 = "What does \"www\" stand for?";
-  <br>String num10 = "Who created Apple and died October 5th 2011?";
-  <br> String num11 = "What operating system is owned by microsoft?";
-  <br>String num12 = "What does USB stand for?";
-  <br> String num13 = "Which part of the computer system are the ones that you can physically touch?";
-  <br>String num14 = "What company invented the MAC operating system?";
-  <br> String num15 = "Who is known as the father of computers?";
-  <br> String num16 = "Which popular company designed the first CPU?";
-  <br> String num17 = "What is the computer's main circuit board called?";
-  <br> String num18 = "Which input device is used to enter letters, numbers, and other characters into a computer?";
-  <br> String num19 = "'Laser', 'Dot Matrix' and 'Inkjet' are types of which output computer device?";
-  <br> String num20 = "Which computer company invented the first floppy disks, hard disk drives, and DRAMS?";
-
-  <br>Questions [] questions = {
-  <br> new Questions(num1,"ada lovelace"),
-  <br>new Questions(num2,"cpu"),
+  <br> System.out.println("WELCOME TO THE IDENTIFICATION QUIZ!");
+  <br> String num1 = "1. Who is the first ever programmer? HINT: It's a girl"
+  <br> +("\nA. Ada Lovelace\nB. Michael Jackson\nC. Charles Babbage\nD. Hillary Clinton");
+  <br> String num2 = "2. What is the brain of a computer? HINT: only three letters";
+  <br> String num3 = "3. G-mail and YouTube belong to this company";
+  <br> String num4 = "4. A computer that is portable and suitable for use while travelling HINT: portability";
+  <br> String num5 = "5. The operating system of Apple Phones HINT: Three letters";
+  <br> String num6 = "6. Computers use this number system to store data and perform calculations HINT: It's composed of two numbers";
+ <br> String num7 = "7. First page of the website HINT: It ends with .html"
+  <br> +("\nA.) info.html\nB.) index.html\nC.) home.html\nD.) about.html");
+  <br> String num8 = "8. Which leading computer software business created programs like Spread Sheet, Word and Power point?";
+  <br> String num9 = "9. What does \"www\" stand for?";
+  <br> String num10 = "10. Who created Apple and died October 5th 2011?";
+  <br> String num11 = "11. What operating system is owned by microsoft?";
+  <br>  String num12 = "12. What does USB stand for?";
+  <br> String num13 = "13. Which part of the computer system are the ones that you can physically touch?";
+  <br> String num14 = "14. What company invented the MAC operating system?";
+  <br> String num15 = "15. Who is known as the father of computers?"
+  <br> +("\nA.) Larry Page\nB.) Steve Jobs\nC.) Charles Babbage\nD.) Michael Jackson");
+  <br> String num16 = "16. Which popular company designed the first CPU?";
+  <br> String num17 = "17. What is the computer's main circuit board called?";
+  <br> String num18 = "18. Which input device is used to enter letters, numbers, and other characters into a computer?";
+  <br> String num19 = "19. 'Laser', 'Dot Matrix' and 'Inkjet' are types of which output computer device?"
+  <br> +("\nA.) Printer\nB.) mouse\nC.) Headphone\nD.) Webcam");
+  <br> String num20 = "20. Which computer company invented the first floppy disks, hard disk drives, and DRAMS?"
+  <br> +("\nA.) Apple\nB.) Starbucks\nC. SanDisk\nD. IBM");
+  <br>
+  <br>  Questions [] questions = {
+  <br> new Questions(num1,"a"),
+  <br> new Questions(num2,"cpu"),
   <br>new Questions(num3,"google"),
-  <br>new Questions(num4,"laptop"),
-  <br>new Questions(num5,"ios"),
-  <br>new Questions(num6,"binary number system"),
-  <br> new Questions(num7,"index.html"),
+  <br> new Questions(num4,"laptop"),
+  <br> new Questions(num5,"ios"),
+  <br> new Questions(num6,"binary number system"),
+  <br> new Questions(num7,"b"),
   <br> new Questions(num8,"microsoft"),
   <br> new Questions(num9,"world wide web"),
-  <br>new Questions(num10,"steve jobs"),
-  <br>new Questions(num11,"windows"),
+  <br> new Questions(num10,"steve jobs"),
+  <br> new Questions(num11,"windows"),
   <br> new Questions(num12,"universal serial bus"),
   <br> new Questions(num13,"hardware"),
   <br> new Questions(num14,"apple"),
-  <br>new Questions(num15,"charles babbage"),
-  <br>new Questions(num16,"intel corporations"),
-  <br>new Questions(num17,"motherboard"),
-  <br>new Questions(num18,"keyboard"),
-  <br>new Questions(num19,"printer"),
-  <br>new Questions(num20,"ibm"),
+  <br> new Questions(num15,"c"),
+  <br> new Questions(num16,"intel corporations"),
+  <br> new Questions(num17,"motherboard"),
+  <br> new Questions(num18,"keyboard"),
+  <br> new Questions(num19,"a"),
+  <br> new Questions(num20,"d"),
 
 
 
   };
   <br> theTest(questions);
-  }
-  <br> public static void theTest(Questions [] questions){
+  <br>}
+
+
+  <br>public static void theTest(Questions [] questions){
   <br>Scanner scan = new Scanner (System.in);
   <br>System.out.println("----------------------------");
   <br>int score = 0;
@@ -96,13 +110,17 @@
   <br>System.out.println(questions[i].quest);
   <br>String answer = scan.nextLine().toLowerCase();
   <br>if(answer.equals(questions[i].answer)){
-  <br>score++;
-  }
+  <br> System.out.println("Correct!");
+  <br> score++;
+  <br> }
+  <br> else{
+  <br> System.out.println("Wrong!");
+  <br> }
   <br>System.out.println("----------------------------");
-  }
+  <br>}
   <br>System.out.println("Your score is " + score+"/" +questions.length);
-  }
-    <br> }</p>
+   <br>}
+  <br></p>
 </div>
 </body>
 <footer>
