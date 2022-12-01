@@ -246,7 +246,6 @@ span {
   justify-content: left;
   align-items: center;
   z-index: 19;
-
 }
 .nobg img{
   height:560px;
@@ -294,13 +293,15 @@ footer{
 }
 
 .boxforcode{
+  border-radius: 25px;
+  font-family: "Courier New", cursive;
   background-color: #363062;
   color:white;
-  height: 400px;
-  width: 600px;
+  height: 500px;
+  width: 700px;
   border: none;
   overflow: scroll;
-  margin-top: -15%;
+  margin-top: -18%;
   margin-left:50%;
   z-index: 19;
 }
@@ -380,6 +381,7 @@ footer{
   height: 500px;
 }
 .pseudo{
+  border-radius: 25px;
   background-color: #363062;
   color:white;
   height: 300px;
@@ -391,6 +393,7 @@ footer{
   z-index: 19;
 }
 .pseudo p{
+  font-family: "Courier New", serif;
   text-align: start;
   justify-content: center;
   color:white;
