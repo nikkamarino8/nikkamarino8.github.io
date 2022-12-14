@@ -34,6 +34,9 @@
 .output{
   animation: transitionIn 0.75s;
 }
+.pseudo{
+  animation: transitionIn 0.75s;
+}
 @keyframes transitionIn {
   from{
     opacity:0;
