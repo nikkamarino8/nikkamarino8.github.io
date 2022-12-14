@@ -385,15 +385,30 @@ footer{
   background: none;
   line-height: 23px;
 }
-.output img{
-  margin-top: -15%;
-  margin-left:42.5%;
+.cont{
+  width: 98%;
+  padding: 20px;
+  margin-left:-8%;
+
+ /* margin:100px auto;*/
   display: flex;
-  justify-content: left;
-  align-items: center;
-  z-index: 19;
-  width: 700px;
-  height: 500px;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.box{
+  width: 250px;
+  margin: 0 10px;
+  transition: .5s;
+}
+.box img{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+.box:hover{
+  transform:scale(2.5);
+  z-index: 2;
 }
 .pseudo{
   border-radius: 25px;
